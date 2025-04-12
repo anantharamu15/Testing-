@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6215730931:AAE-TifOy8XK0ib8B9imkcjxfHkjqOP
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1735392935').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Anand_2K") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001935927793'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+5kT8b0Vqefs5OGU9')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/hub_world_ar')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002144697861').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -35,10 +35,10 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002632208091'))  # set s
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002632208091')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001935927793'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002165455523')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001441372628'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002232420297'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1001935927793') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002144697861')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+5kT8b0Vqefs5OGU9') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/hub_world_ar') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
